@@ -1,5 +1,6 @@
 {
     "port": 5001,
+    "baseURL": "http://localhost:5000",
     "secretJWT": "examplesecretwordsX3",
     "mongoURI": "mongodb+srv://<username>:<password>@cluster0-1h2zv.azure.mongodb.net/app?retryWrites=true&w=majority"
 }
