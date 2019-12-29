@@ -61,6 +61,7 @@ export const AuthPage = () => {
                                     type="email" 
                                     className="validate white-text"
                                     name="email"
+                                    value={ form.email }
                                     onChange={ changeHandler }
                                 />
                                 <label htmlFor="email">Email</label>
@@ -72,6 +73,7 @@ export const AuthPage = () => {
                                     type="password" 
                                     className="validate white-text"
                                     name="password"
+                                    value={ form.password }
                                     onChange={ changeHandler }
                                 />
                                 <label htmlFor="password">Пароль</label>
