@@ -5,7 +5,7 @@ Create config file for connect mongodb database config/default.json from config/
 
 Install dependencies:
 
-`npm i'
+`npm i`
 
 Run server:
 
@@ -14,4 +14,3 @@ Run server:
 Run client app:
 
 `npm run client`
-
