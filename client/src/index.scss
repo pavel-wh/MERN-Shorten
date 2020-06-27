@@ -4,6 +4,13 @@ $material-icons-font-path: '~material-icons/iconfont/';
 
 @import '~material-icons/iconfont/material-icons.scss';
 
+@import '~react-super-responsive-table/dist/SuperResponsiveTableStyle.css';
+
+.responsiveTable tbody tr {
+  border-color: #f57f17;
+  margin: 20px 0;
+}
+
 body {
   color: #3a3a3a
 }
