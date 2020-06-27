@@ -19,33 +19,35 @@ export const Navbar = () => {
   }
 
   return (
-    <nav>
-      <div
-        className="nav-wrapper yellow darken-4"
-        style={{ padding: '0 1.5rem' }}
-      >
-        <span className="brand-logo">Сокращай</span>
-        <a href="#" data-target="mobile-demo" className="sidenav-trigger">
-          <i className="material-icons">menu</i>
-        </a>
-        <ul id="nav-mobile" className="right hide-on-med-and-down">
-          <li>
-            <NavLink to="/create">Создать</NavLink>
-          </li>
-          <li>
-            <NavLink to="/links">Ссылки</NavLink>
-          </li>
-          <li>
-            <a href="/" onClick={logoutHandler}>
-              Выйти
-            </a>
-          </li>
-        </ul>
-      </div>
+    <div>
+      <nav class="navbar-fixed">
+        <div
+          className="nav-wrapper yellow darken-4"
+          style={{ padding: '0 1.5rem' }}
+        >
+          <span className="brand-logo">Сокращай</span>
+          <a href="#" data-target="mobile-demo" className="sidenav-trigger">
+            <i className="material-icons">menu</i>
+          </a>
+          <ul id="nav-mobile" className="right hide-on-med-and-down">
+            <li>
+              <NavLink to="/create">Сократить</NavLink>
+            </li>
+            <li>
+              <NavLink to="/links">Ссылки</NavLink>
+            </li>
+            <li>
+              <a href="/" onClick={logoutHandler}>
+                Выйти
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
       <ul className="sidenav" id="mobile-demo">
         <li>
           <NavLink to="/create" className="sidenav-close">
-            Создать
+            Сократить
           </NavLink>
         </li>
         <li>
@@ -59,6 +61,6 @@ export const Navbar = () => {
           </a>
         </li>
       </ul>
-    </nav>
+    </div>
   )
 }

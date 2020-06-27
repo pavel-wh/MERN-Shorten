@@ -46,7 +46,7 @@ export const CreatePage = () => {
           <input
             type="submit"
             className="btn yellow darken-4"
-            value="Создать"
+            value="Сократить"
             onClick={pressHandler}
           />
           <label htmlFor="link" value={link}>
