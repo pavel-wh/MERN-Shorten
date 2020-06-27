@@ -1,5 +1,22 @@
-@import '~materialize-css/dist/css/materialize.min.css';
+@import '~materialize-css/sass/materialize.scss';
 
+body {
+  color: #3a3a3a
+}
+
+.app {
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+
+.card-action {
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media #{$large-and-up} {
+
+}
 /* label focus color */
 .input-field input:focus + label {
   color: #f57f17 !important;
@@ -9,4 +26,3 @@
   border-bottom: 1px solid #f57f17 !important;
   box-shadow: 0 1px 0 0 #f57f17 !important;
 }
-      
