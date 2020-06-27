@@ -1,6 +1,6 @@
 # Shorten Links App
 
-Shorten Links App is a Node.js application with Express.js server React.js for client and MondoDB database.
+[Shorten Links App](https://shorten-refs.herokuapp.com/) is a Node.js application with Express.js server React.js for client and MondoDB database.
 
 ## Clone repo
 
