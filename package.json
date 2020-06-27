@@ -13,6 +13,9 @@
     "prod": "cross-env NODE_ENV=production concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm client:install && npm client:build && npm run prod"
   },
+  "engines": {
+    "node": "12.x"
+  },
   "keywords": [
     "MERN",
     "JS"
